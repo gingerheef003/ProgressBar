@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  progressbar:
+    image: progressbar
+    build:
+      context: .
+      dockerfile: ./Dockerfile
